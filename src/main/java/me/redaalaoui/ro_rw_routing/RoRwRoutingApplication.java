@@ -69,7 +69,7 @@ public class RoRwRoutingApplication {
             Map.entry(AvailableSettings.CACHE_REGION_FACTORY, new EhcacheRegionFactory())));
 
     HibernateJpaVendorAdapter jpaVendorAdapter = new HibernateJpaVendorAdapter();
-    jpaVendorAdapter.setShowSql(false);
+    jpaVendorAdapter.setShowSql(true);
     jpaVendorAdapter.setDatabase(Database.H2);
     jpaVendorAdapter.setGenerateDdl(false);
     jpaVendorAdapter.getJpaDialect().setPrepareConnection(false);
