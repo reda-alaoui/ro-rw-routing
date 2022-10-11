@@ -31,6 +31,8 @@ Réda Housni Alaoui (Oct 9, 2022):
 Vlad Mihalcea (Oct 10, 2022):
 > Here's an automated test demonstrating that my solution works like a charm: https://github.com/vladmihalcea/high-performance-java-persistence/blob/master/core/src/test/java/com/vladmihalcea/book/hpjp/spring/transaction/routing/TransactionRoutingDataSourceTest.java
 
+[Permalink to TransactionRoutingDataSourceTest.java](https://github.com/reda-alaoui/high-performance-java-persistence/blob/7800308cf22c7b797326bb8f9f7f476b4f4d468d/core/src/test/java/com/vladmihalcea/book/hpjp/spring/transaction/routing/TranscationRoutingDataSourceTest.java)
+
 Réda Housni Alaoui (Oct 10, 2022):
 > You don't use the 2nd level cache in your test.
 
